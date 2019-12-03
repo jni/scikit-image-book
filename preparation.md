@@ -19,8 +19,9 @@ required packages installed in order to participate fully.
   - `numpy` >= 1.12
   - `scipy` >= 1.0
   - `matplotlib` >= 2.1
-  - `scikit-image` >= 0.15
+  - `scikit-image` >= 0.16
   - `scikit-learn` >= 0.18
+  - `napari` >= 0.2.6
 
   Please see "Test your setup" below.
 
@@ -35,21 +36,15 @@ required packages installed in order to participate fully.
   4.4.0
   ```
 
-  Also activate Jupyter Widgets:
-
-  ```
-  pip install -q ipywidgets
-  jupyter nbextension enable --py --sys-prefix widgetsnbextension
-  ```
-
 ## Download lecture material
 
 1. [Install Git](https://git-scm.com/downloads)
 2. Clone the repository at
-   [https://github.com/scikit-image/skimage-tutorials](https://github.com/scikit-image/skimage-tutorials)
+   [https://github.com/jni/skimage-tutorials](https://github.com/jni/skimage-tutorials)
+3. Switch to the `monash-df2` branch: git checkout --track origin/monash-df2
 
 We may make editorial corrections to the material until the day before
-the workshop, so please execute `git pull` to update.
+the workshop, so please execute `git pull` to update before class.
 
 ## Test your setup
 
@@ -59,12 +54,13 @@ and run `check_setup.py` to validate your installation.
 On my computer, I see (but your version numbers may differ):
 
 ```
-[✓] scikit-image  0.15.0
-[✓] numpy         1.14.5
-[✓] scipy         1.1.0
-[✓] matplotlib    2.2.2
-[✓] notebook      5.4.0
-[✓] scikit-learn  0.19.1
+[✓] scikit-image  0.16.2
+[✓] numpy         1.17.0
+[✓] scipy         1.3.1
+[✓] matplotlib    3.1.1
+[✓] notebook      6.0.1
+[✓] scikit-learn  0.21.1
+[✓] napari        0.2.6
 ```
 
 **If you do not have a working setup, please contact the instructors.**
