@@ -58,23 +58,28 @@ the workshop, so please execute `git pull` to update before class.
 
 ### Option 2: download a zip file
 
+Download the file at:
 
+https://github.com/jni/skimage-tutorials/archive/monash-df2020-05.zip
+
+Unzip it, then start a jupyter notebook inside the archive.
 
 ## Test your setup
 
 Please switch into the repository you downloaded in the previous step,
-and run `check_setup.py` to validate your installation.
+and run `python check_setup.py` to validate your installation.
 
 On my computer, I see (but your version numbers may differ):
 
 ```
-[✓] scikit-image  0.16.2
-[✓] numpy         1.17.0
-[✓] scipy         1.3.1
-[✓] matplotlib    3.1.1
-[✓] notebook      6.0.1
-[✓] scikit-learn  0.21.1
-[✓] napari        0.2.6
+[✓] scikit-image  0.18.dev0
+[✓] numpy         1.18.4
+[✓] scipy         1.4.1
+[✓] matplotlib    3.2.1
+[✓] notebook      6.0.3
+[✓] scikit-learn  0.23.0rc1
+[✓] pandas        1.0.3
+[✓] napari        0.3.0
 ```
 
 **If you do not have a working setup, please contact the instructors.**
