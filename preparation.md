@@ -83,3 +83,20 @@ On my computer, I see (but your version numbers may differ):
 ```
 
 **If you do not have a working setup, please contact the instructors.**
+
+## After the workshop
+
+We will upload our completed notebooks to the
+`monash-df2020-05-completed` branch. You can download it with git using:
+
+```
+git commit -a -m "Work completed in class"
+git fetch origin monash-df2020-05-completed
+git switch monash-df2020-05-completed
+```
+
+Or you can download them directly at:
+
+https://github.com/jni/skimage-tutorials/archive/monash-df2020-05-completed.zip
+
+
